@@ -2,25 +2,27 @@
   @import url('https://fonts.googleapis.com/css2?family=Cambay&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
   
 
-  @media screen and (max-width: 800px) { 
+  @media all and (max-width: 800px) { 
     ul {
         display: flex;
         flex-direction: column;
-        width: 100%;  
+        width: 100%; 
     }
 
     .imagenes-generales {
         display: block;
         margin-block-start: auto;
-    }
-  }
+    } 
+}
 
-    #logo {
-        display: block;
-        margin-block-start: auto;
-    }
+
+    
+    
+    
+    
 
 
     /*Comienzo de Estilos CSS*/
@@ -47,22 +49,26 @@ img {
 
 /*Listas*/
 ul {
+    list-style: none;
     background-image: none;
     background-color: black;
-    border-width: 5px;
-    border-style: solid;
+    border: 2px solid white;
     display:flex;
     justify-content: space-around;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
 }
 
 a {
-    background-color: #1B191B;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    background-color: none;
     color: #FFF;
+    
 }
 
 li {
-    background-color: #1B191B;
+    
+    background-color: none;
      color: #FFF;
      border-radius: 20px;
      -webkit-border-radius: 20px;
@@ -109,7 +115,7 @@ h2 {
 .flex-container {
     display: grid;
     grid-template-columns: 30% 40% auto;
-    grid-template-rows: 200px 200px 200px;
+    grid-template-rows: auto auto auto;
     gap: 5px;
     object-fit: contain;
 }
@@ -118,16 +124,22 @@ h2 {
 .imagen-uno {
     grid-column: 1/2;
     grid-row: 1/4;
+    border: 5px solid black;
+
 }
 
 .imagen-dos {
   grid-column: 2/3;
   grid-row: 1/4;
+  border: 5px solid black;
+
 }
 
 .imagen-tres {
     grid-column: 3/4;
     grid-row: 1/4;
+    border: 5px solid black;
+
 }
 
 /*carousel*/
