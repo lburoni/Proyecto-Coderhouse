@@ -29,11 +29,11 @@
     /*Comienzo de Estilos CSS*/
 * {
     margin: 0;
-    padding: 0;
+    padding: 10px;
 }
 
 body {
-    background: linear-gradient(220.55deg, #D0004B 0%, #88069D 100%);}
+    background: linear-gradient(220.55deg, #020024 0% , #ff7b00 0%, #00d4ff 100%);}
  /*Imagenes*/
 img {
     width: 100%;
@@ -42,7 +42,8 @@ img {
 
 /*Logo*/
 #logo {
-    width: 10% ;
+    
+    width: 12% ;
     display: block;
     margin: auto;
     padding: 5px;
@@ -54,6 +55,8 @@ ul {
     background-image: none;
     background-color: black;
     border: 4px solid white;
+    height: 50px;
+    align-items: center;
     display:flex;
     justify-content: space-around;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -61,6 +64,7 @@ ul {
 }
 
 a {
+    font-size: 20px;
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
     background-color: none;
@@ -104,6 +108,8 @@ h1 {
 }
 
 p {
+    font-size: 15px;
+    text-align: center;
     color: #212121 ;
     font-family: 'Cinzel', serif;
     font-family: 'Oswald', sans-serif;
