@@ -1,0 +1,55 @@
+    
+    
+    
+    /*Import google front*/
+    @import url('https://fonts.googleapis.com/css2?family=Cambay&display=swap');
+     @import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Oswald:wght@700&display=swap');
+  
+    /*Import scss*/
+    @import "estilos-generales";
+    @import "clases-index";
+    @import "clases-shop";
+    @import "clases-integrantes";
+    @import "clases-historia";
+
+
+
+
+  
+
+/*Comienzo de Estilos CSS*/
+* {
+    margin: 0;
+    padding: 10px;
+}
+
+/*Logo*/
+#logo {
+    
+    width: 12% ;
+    display: block;
+    margin: auto;
+    padding: 5px;
+}
+
+
+
+
+/*Comienzo de media querys*/
+
+
+@media all and (max-width: 800px) { 
+    ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%; 
+    }
+
+    .imagenes-generales {
+        display: block;
+        margin-block-start: auto;
+    } 
+}

@@ -1,0 +1,29 @@
+.flex-container {
+    display: grid;
+    grid-template-columns: 30% 40% auto;
+    grid-template-rows: auto auto auto;
+    gap: 5px;
+    object-fit: contain;
+}
+
+
+.imagen-uno {
+    grid-column: 1/2;
+    grid-row: 1/4;
+    border: 5px solid black;
+
+}
+
+.imagen-dos {
+  grid-column: 2/3;
+  grid-row: 1/4;
+  border: 5px solid black;
+
+}
+
+.imagen-tres {
+    grid-column: 3/4;
+    grid-row: 1/4;
+    border: 5px solid black;
+
+}
