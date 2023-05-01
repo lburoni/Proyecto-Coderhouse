@@ -1,3 +1,10 @@
+@import "mapas";
+
+
+
+
+
+
 .flex-container {
     display: grid;
     grid-template-columns: 30% 40% auto;
@@ -10,20 +17,20 @@
 .imagen-uno {
     grid-column: 1/2;
     grid-row: 1/4;
-    border: 5px solid black;
+    border: $bordes;
 
 }
 
 .imagen-dos {
   grid-column: 2/3;
   grid-row: 1/4;
-  border: 5px solid black;
+  border: $bordes;
 
 }
 
 .imagen-tres {
     grid-column: 3/4;
     grid-row: 1/4;
-    border: 5px solid black;
+    border: $bordes;
 
 }

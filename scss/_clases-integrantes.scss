@@ -1,5 +1,12 @@
+@import "mapas";
+
+
+
+
+
+
 .carousel-item {
     height: 800px;
     object-fit: contain;
-    border: 3px solid white;
+    border: $borde2;
   }
