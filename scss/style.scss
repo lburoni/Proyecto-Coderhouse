@@ -2,6 +2,7 @@
     
     
     /*Import google front*/
+    @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
     @import url('https://fonts.googleapis.com/css2?family=Cambay&display=swap');
      @import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
@@ -16,6 +17,7 @@
     @import "clases-historia";
     @import "mapas";
     @import "variables";
+    
 
 
   
@@ -23,7 +25,7 @@
 /*Comienzo de Estilos CSS*/
 * {
     margin: 0;
-    padding: 10px;
+    padding: 0;
 }
 
 /*Logo*/
@@ -32,7 +34,7 @@
     width: 12% ;
     display: block;
     margin: auto;
-    padding: 5px;
+    padding: 10px;
 }
 
 
@@ -41,15 +43,10 @@
 /*Comienzo de media querys*/
 
 
-@media all and (max-width: 800px) { 
-    ul {
-        display: flex;
-        flex-direction: column;
-        width: 100%; 
-    }
+@media screen and (max-width: 800px) { 
 
     .imagenes-generales {
-        display: block;
-        margin-block-start: auto;
+        display: flex;
+        
     } 
 }

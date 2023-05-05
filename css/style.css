@@ -1,4 +1,5 @@
 /*Import google front*/
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cambay&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Carter+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Knewave&display=swap");
@@ -7,6 +8,7 @@
 /*Import scss*/
 body {
   background: linear-gradient(220.55deg, #020024 0%, #ff7b00 0%, #00d4ff 100%);
+  padding: 10px;
 }
 
 /*Imagenes*/
@@ -162,8 +164,8 @@ section p {
 
 .carousel-item {
   height: 800px;
-  object-fit: contain;
-  border: 3px solid white;
+  object-fit: fill;
+  border: 2px solid white;
 }
 
 .imagenes-generales {
@@ -184,7 +186,7 @@ section p {
 /*Comienzo de Estilos CSS*/
 * {
   margin: 0;
-  padding: 10px;
+  padding: 0;
 }
 
 /*Logo*/
@@ -192,19 +194,13 @@ section p {
   width: 12%;
   display: block;
   margin: auto;
-  padding: 5px;
+  padding: 10px;
 }
 
 /*Comienzo de media querys*/
-@media all and (max-width: 800px) {
-  ul {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
+@media screen and (max-width: 800px) {
   .imagenes-generales {
-    display: block;
-    margin-block-start: auto;
+    display: flex;
   }
 }
 
