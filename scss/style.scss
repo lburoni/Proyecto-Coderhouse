@@ -43,10 +43,24 @@
 /*Comienzo de media querys*/
 
 
-@media screen and (max-width: 800px) { 
+@media screen and (max-width: 600px) { 
 
     .imagenes-generales {
         display: flex;
         
     } 
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #logo {
+        width: 40%;
+    }
+
+    .carousel-item {
+        height: 200px;
+    }
+
 }
