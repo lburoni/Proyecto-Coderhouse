@@ -17,6 +17,7 @@
     @import "clases-historia";
     @import "mapas";
     @import "variables";
+    @import "clases-tour";
     
 
 
@@ -43,10 +44,12 @@
 /*Comienzo de media querys*/
 
 
-@media screen and (max-width: 600px) { 
+@media screen and (max-width: 800px) { 
 
     .imagenes-generales {
         display: flex;
+        width: 90%;
+        height: 200px;
         
     } 
 
@@ -56,11 +59,27 @@
     }
 
     #logo {
-        width: 40%;
+        width: 70%;
     }
 
     .carousel-item {
         height: 200px;
     }
+
+    .product-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    ul {
+        display: block;
+        flex-direction: column;
+        background: none;
+        border: none;
+        height: 100%;
+        background-color: black;
+    }
+
+
 
 }

@@ -9,10 +9,12 @@
 body {
   background: linear-gradient(220.55deg, #020024 0%, #ff7b00 0%, #00d4ff 100%);
   padding: 10px;
+  margin: 0;
 }
 
 /*Imagenes*/
 img {
+  display: flex;
   width: 100%;
   height: 100%;
 }
@@ -67,6 +69,10 @@ h2 {
   font-family: "Carter One", cursive;
 }
 
+.redes {
+  margin: 20px;
+}
+
 .flex-container {
   display: grid;
   grid-template-columns: 30% 40% auto;
@@ -100,6 +106,7 @@ h2 {
   margin: auto;
   padding: 5px;
   border: 5px solid black;
+  border-style: double;
 }
 
 .icon-cart {
@@ -183,6 +190,22 @@ section p {
   font-weight: bold;
 }
 
+.texto-tour {
+  color: #c91190;
+  border: 10px solid black;
+  border-style: groove;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.imagen-tour {
+  width: 100%;
+  border-radius: 5px;
+  border: 5px solid black;
+  margin: 5px;
+}
+
 /*Comienzo de Estilos CSS*/
 * {
   margin: 0;
@@ -198,19 +221,33 @@ section p {
 }
 
 /*Comienzo de media querys*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .imagenes-generales {
     display: flex;
+    width: 90%;
+    height: 200px;
   }
   .flex-container {
     display: flex;
     flex-direction: column;
   }
   #logo {
-    width: 40%;
+    width: 70%;
   }
   .carousel-item {
     height: 200px;
+  }
+  .product-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul {
+    display: block;
+    flex-direction: column;
+    background: none;
+    border: none;
+    height: 100%;
+    background-color: black;
   }
 }
 
